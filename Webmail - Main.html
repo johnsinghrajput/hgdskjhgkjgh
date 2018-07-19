@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<!-- saved from url=(0118)https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/index.html?login=1&post_login=9033700986505 -->
+<html lang="en" dir="ltr"><script type="text/javascript" charset="utf-8" id="zm-extension" src="chrome-extension://fdcgdnkidjaadafnichfpabhfomcebme/scripts/webrtc-patch.js" async=""></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Webmail - Main</title>
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta name="theme-color" content="#293a4a">
+
+            <!-- Mobile Chrome-->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-status-bar-style" content="default">
+
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        
+
+
+        <link rel="shortcut icon" href="https://webmail.a1professionals.net/brand/favicon.ico?1531195818" type="image/x-icon">
+
+        <link rel="stylesheet" type="text/css" href="https://webmail.a1professionals.net/cPanel_magic_revision_1525811460/webmail/paper_lantern/_assets/css/master-legacy-ltr.cmb.min.css">
+        <link rel="stylesheet" type="text/css" href="https://webmail.a1professionals.net/cPanel_magic_revision_1503509867/webmail/paper_lantern/mail_clients/mail_clients.min.css">
+
+            <script type="text/javascript" src="https://webmail.a1professionals.net/cPanel_magic_revision_1525811475/webmail/paper_lantern/_assets/js/master-legacy.cmb.min.js"></script>
+        
+
+        <script type="text/javascript" src="https://webmail.a1professionals.net/cPanel_magic_revision_1525811473/cjt/cpanel-all-min.js?locale=en&amp;locale_revision=1531427617"></script>
+        <script type="text/javascript">
+            CPANEL.validate.hide_validation_summary = true;
+        </script>
+        
+        <script>
+            (function(){
+                window.PAGE = window.PAGE || {};
+                window.NVData = {};
+                
+                window.NVData["default_webmail_app"] = "roundcube";
+                
+                window.thisTheme = "paper_lantern";
+            })();
+            
+        </script>
+
+        
+                <link rel="stylesheet" type="text/css" href="https://webmail.a1professionals.net/styled/basic/styles.css?1531195818">
+                <!-- custom style css file (styles.css) should go here -->
+                <link rel="stylesheet" type="text/css" href="https://webmail.a1professionals.net/styled/basic/sprites/icon_spritemap.css?1531195818">
+        
+
+    </head>
+    <body id="home" class="webmail yui-skin-sam">
+        <div id="wrap">
+            <header id="masterAppContainer">
+                <div class="navbar navbar-inverse navbar-cpanel navbar-fixed-top" role="navigation">
+                    <div class="navbar-header">
+                        
+                            <a id="lnkHeaderHome" class="navbar-brand navbar-item navbar-brand-img" target="_top" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/index.html">
+                                <img id="imgLogo" class="navbar-brand-logo" src="https://webmail.a1professionals.net/brand/webmail.svg?1531195818" alt="" title="">
+                            </a>
+                        
+                        <div class="navbar-preferences">
+                            <span id="userPreferencesContainer">
+<div class="btn-group">
+    <button id="btnUserPref" data-toggle="dropdown" class="btn btn-primary dropdown-toggle btn-sm navbar-item">
+        <span id="userImg" class="glyphicon glyphicon-user"></span>
+        <span id="lblUserNameTxt" class="hidden-inline-xs">networking@a1professionals.net</span>
+        <span id="caretImg" class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right">
+
+        
+            
+            <li class="mail-app">
+                <a id="lnkUserPrefhorde" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/index.html?mailclient=horde" title="Go to “Horde”." class="app-name">
+                    Horde
+                </a>
+                <a id="lnkUserPrefFavhorde" href="javascript:void(0);" class="app-fav" data-default-webmail-app="horde" title="Set “Horde” as my default webmail application.">
+                    <span id="imgUserPrefhorde" class="far fa-star fa-fw pull-right" data-default-webmail-app="horde" alt="Set “Horde” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+            <li class="mail-app">
+                <a id="lnkUserPrefroundcube" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/index.html?mailclient=roundcube" title="Go to “Roundcube”." class="app-name">
+                    Roundcube
+                </a>
+                <a id="lnkUserPrefFavroundcube" href="javascript:void(0);" class="app-fav" data-default-webmail-app="roundcube" title="Set “Roundcube” as my default webmail application.">
+                    <span id="imgUserPrefroundcube" class="fa-star fa-fw pull-right fas" data-default-webmail-app="roundcube" alt="Set “Roundcube” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+            <li class="mail-app">
+                <a id="lnkUserPrefsqmail" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/index.html?mailclient=sqmail" title="Go to “SquirrelMail”." class="app-name">
+                    SquirrelMail
+                </a>
+                <a id="lnkUserPrefFavsqmail" href="javascript:void(0);" class="app-fav" data-default-webmail-app="sqmail" title="Set “SquirrelMail” as my default webmail application.">
+                    <span id="imgUserPrefsqmail" class="far fa-star fa-fw pull-right" data-default-webmail-app="sqmail" alt="Set “SquirrelMail” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+        <li class="divider"></li>
+        
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            <li>
+                <a id="lnkUserPrefapache_spam_assassin" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/mail/spam/" title="Go to “Spam Filters”." class="app-name">
+                    Spam Filters
+                </a>
+                <a id="lnkUserPrefFavapache_spam_assassin" href="javascript:void(0);" class="app-fav" data-default-webmail-app="apache_spam_assassin" title="Set “Spam Filters” as my default webmail application.">
+                    <span id="imgUserPrefapache_spam_assassin" class="far fa-star fa-fw pull-right" data-default-webmail-app="apache_spam_assassin" alt="Set “Spam Filters” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            <li>
+                <a id="lnkUserPrefautoresponders" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/mail/autores.html" title="Go to “Autoresponders”." class="app-name">
+                    Autoresponders
+                </a>
+                <a id="lnkUserPrefFavautoresponders" href="javascript:void(0);" class="app-fav" data-default-webmail-app="autoresponders" title="Set “Autoresponders” as my default webmail application.">
+                    <span id="imgUserPrefautoresponders" class="far fa-star fa-fw pull-right" data-default-webmail-app="autoresponders" alt="Set “Autoresponders” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            <li>
+                <a id="lnkUserPrefboxtrapper" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/mail/manage.html" title="Go to “BoxTrapper”." class="app-name">
+                    BoxTrapper
+                </a>
+                <a id="lnkUserPrefFavboxtrapper" href="javascript:void(0);" class="app-fav" data-default-webmail-app="boxtrapper" title="Set “BoxTrapper” as my default webmail application.">
+                    <span id="imgUserPrefboxtrapper" class="far fa-star fa-fw pull-right" data-default-webmail-app="boxtrapper" alt="Set “BoxTrapper” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="sub-menu-item">
+                        <a id="lnkUserPrefboxtrapper_review_queue" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/mail/showq.html" class="app-name" title="Go to “Review Queue”.">
+                            Review Queue
+                        </a>
+                        <a id="lnkUserPrefFavboxtrapper_review_queue" href="javascript:void(0);" class="app-fav" data-default-webmail-app="boxtrapper_review_queue" title="Set “Review Queue” as my default webmail application.">
+                            <span id="imgboxtrapper_review_queue" class="far fa-star fa-fw pull-right" data-default-webmail-app="boxtrapper_review_queue" alt="Set “Review Queue” as my default webmail application.">
+                            </span>
+                        </a>
+                    </li>
+                
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            <li>
+                <a id="lnkUserPrefchange_password" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/mail/change_password.html" title="Go to “Password &amp; Security”." class="app-name">
+                    Password &amp; Security
+                </a>
+                <a id="lnkUserPrefFavchange_password" href="javascript:void(0);" class="app-fav" data-default-webmail-app="change_password" title="Set “Password &amp; Security” as my default webmail application.">
+                    <span id="imgUserPrefchange_password" class="far fa-star fa-fw pull-right" data-default-webmail-app="change_password" alt="Set “Password &amp; Security” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            <li>
+                <a id="lnkUserPrefconfigure_mail_client" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/mail/clientconf.html" title="Go to “Configure Mail Client”." class="app-name">
+                    Configure Mail Client
+                </a>
+                <a id="lnkUserPrefFavconfigure_mail_client" href="javascript:void(0);" class="app-fav" data-default-webmail-app="configure_mail_client" title="Set “Configure Mail Client” as my default webmail application.">
+                    <span id="imgUserPrefconfigure_mail_client" class="far fa-star fa-fw pull-right" data-default-webmail-app="configure_mail_client" alt="Set “Configure Mail Client” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            <li>
+                <a id="lnkUserPrefcontact_information" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/contact/index.html" title="Go to “Contact Information”." class="app-name">
+                    Contact Information
+                </a>
+                <a id="lnkUserPrefFavcontact_information" href="javascript:void(0);" class="app-fav" data-default-webmail-app="contact_information" title="Set “Contact Information” as my default webmail application.">
+                    <span id="imgUserPrefcontact_information" class="far fa-star fa-fw pull-right" data-default-webmail-app="contact_information" alt="Set “Contact Information” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            <li>
+                <a id="lnkUserPrefemail_filters" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/mail/filters/userfilters.html" title="Go to “Email Filters”." class="app-name">
+                    Email Filters
+                </a>
+                <a id="lnkUserPrefFavemail_filters" href="javascript:void(0);" class="app-fav" data-default-webmail-app="email_filters" title="Set “Email Filters” as my default webmail application.">
+                    <span id="imgUserPrefemail_filters" class="far fa-star fa-fw pull-right" data-default-webmail-app="email_filters" alt="Set “Email Filters” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            <li>
+                <a id="lnkUserPrefforwarders" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/mail/fwds.html" title="Go to “Forwarders”." class="app-name">
+                    Forwarders
+                </a>
+                <a id="lnkUserPrefFavforwarders" href="javascript:void(0);" class="app-fav" data-default-webmail-app="forwarders" title="Set “Forwarders” as my default webmail application.">
+                    <span id="imgUserPrefforwarders" class="far fa-star fa-fw pull-right" data-default-webmail-app="forwarders" alt="Set “Forwarders” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            <li>
+                <a id="lnkUserPrefsolr_search_index" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/mail/search_index/" title="Go to “Search Index”." class="app-name">
+                    Search Index
+                </a>
+                <a id="lnkUserPrefFavsolr_search_index" href="javascript:void(0);" class="app-fav" data-default-webmail-app="solr_search_index" title="Set “Search Index” as my default webmail application.">
+                    <span id="imgUserPrefsolr_search_index" class="far fa-star fa-fw pull-right" data-default-webmail-app="solr_search_index" alt="Set “Search Index” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                        
+            <li>
+                <a id="lnkUserPreftrack_delivery" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/mail/route.html" title="Go to “Track Delivery”." class="app-name">
+                    Track Delivery
+                </a>
+                <a id="lnkUserPrefFavtrack_delivery" href="javascript:void(0);" class="app-fav" data-default-webmail-app="track_delivery" title="Set “Track Delivery” as my default webmail application.">
+                    <span id="imgUserPreftrack_delivery" class="far fa-star fa-fw pull-right" data-default-webmail-app="track_delivery" alt="Set “Track Delivery” as my default webmail application.">
+                    </span>
+                </a>
+            </li>
+            
+        
+        
+    </ul>
+</div>
+
+                                <span id="logoutContainer">
+                                   <div class="btn-group">
+                                    <a target="_top" href="https://webmail.a1professionals.net/logout/?locale=en">
+                                      <button id="lnkHeaderLogout" class="btn btn-primary logout-btn btn-sm navbar-item">
+                                        <span id="logoutImg" class="glyphicon glyphicon-log-out"></span>
+                                        <span id="lblLogout" class="hidden-inline-xs">Logout</span>
+                                      </button>
+                                    </a>
+                                   </div>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- PAGE TEMPLATE'S CONTENT START -->
+            <div id="content" class="container-fluid">
+            
+            
+                <iframe id="mailFrame" class="mail_client_roundcube" src="./Webmail - Main_files/index.html" seamless="seamless" width="100%" height="950px"></iframe>
+                
+                <style>
+
+                    #content {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    /**
+                     * We need to use position absolute here because safari
+                     * on iOS 9 does not support position fixed for iframes.
+                     *
+                     * margin-top is used here instead of padding-top
+                     * because of the smartmobile view in Horde which
+                     * is using jquery-mobile. jquery-mobile counts the padding
+                     * as part of the height and will cause the footer to appear
+                     * in the wrong spot.
+                     *
+                     * The height needs to be caculated at 100vh - whatever we
+                     * are using for the margin. Setting the height to just 100vh
+                     * causes the last email in the list to be partially hidden
+                     * when using the jquery-mobile view particularly on iOS.
+                     * Adjusting the height to account for the margin will
+                     * correctly display the last item fully.
+                     */
+                    #mailFrame {
+                        border: 0px;
+                        height: calc(100vh - 50px);
+                        margin-top: 50px;
+                        position: absolute;
+                        top: 0;
+                        width: 100%;
+                        bottom: 0;
+                    }
+
+                    div#wrap {
+                        background-repeat: repeat-x;
+                    }
+
+                    footer {
+                        display: none;
+                    }
+
+                    header .navbar {
+                        margin: 0px;
+                        border: 0px;
+                    }
+
+                    @media (max-width: 667px) {
+
+                        #mailFrame {
+                            height: calc(100vh - 30px);
+                            margin-top: 30px;
+                        }
+
+                    }
+
+                </style>
+            </div>
+            <!-- PAGE TEMPLATE'S CONTENT END -->
+            <footer>
+                <div class="container-fluid">
+                    <div class="navbar">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a id="lnkFooterHome" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/index.html">Home                                </a>
+                            </li>
+                            <li>
+                                <a id="lnkFooterTrademark" href="https://webmail.a1professionals.net/cpsess7769329506/webmail/paper_lantern/trademarks.html" target="_blank">Trademarks                                </a>
+                            </li>
+                            <li>
+                                <a id="lnkFooterDocs" href="https://go.cpanel.net/paperlanterndocs" target="_blank">Documentation                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="navbar-brand" style="display:inline-block; z-index:2147483647; visibility:visible;">
+                            <a id="lnkPoweredByCpanel" href="http://www.cpanel.net/" target="cpanel" title="cPanel, Inc." style="display:inline-block; z-index:2147483647; visibility:visible;">
+                                <img id="imgPoweredByCpanel" src="https://webmail.a1professionals.net/cPanel_magic_revision_1503509868/img-sys/powered_by_cpanel.svg" alt="cPanel, Inc." style="display:inline-block; z-index:2147483647; visibility:visible; height:20px; min-width:94px;">
+                            </a>
+                            <sub id="txtCpanelVersion" style="display:inline-block; z-index:2147483647; visibility:visible;">72.0.9</sub>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script type="text/javascript">
+                /* Embedding: /usr/local/cpanel/base/webmail/paper_lantern/_assets/base.min.js */
+                (function(){"use strict";function setDefault(client){if(client&&client.length>0){if(window.NVData["default_webmail_app"]!==client){SetNvData("default_webmail_app",client,handleSetNvData)}else{selectDefault(client)}}}function updateDefaultHandler(client){if(typeof selectDefault!=="undefined"&&$.isFunction(selectDefault)){selectDefault(client)}if(typeof updateDefaultSelection!=="undefined"&&$.isFunction(updateDefaultSelection)){updateDefaultSelection()}}function selectDefault(client){$("span[data-default-webmail-app]").each(function(){var mailClient=$(this);if(mailClient.attr("data-default-webmail-app")===client){mailClient.removeClass("far fa-spinner fa-spin").addClass("fas fa-star")}else{mailClient.removeClass("fas fa-spinner fa-spin").addClass("far fa-star")}})}function setLoadingIndicator(client){var mailClientImg=$("span[data-default-webmail-app="+client+"]");mailClientImg.removeClass("far fa-star").addClass("fas fa-spinner fa-spin")}function handleSetNvData(data){if(data){window.NVData["default_webmail_app"]=NVData["default_webmail_app"];updateDefaultHandler(NVData["default_webmail_app"])}}function updateDefaultSelection(){$("#mailClientList .panel").each(function(){if($(this).attr("data-default-webmail-app")===NVData["default_webmail_app"]){$(this).removeClass("panel-default").addClass("panel-primary");$(this).children("a.mail-client-action-link").removeClass("show").addClass("hide");$(this).find(".default-mail-client").removeClass("hide").addClass("show")}else{$(this).removeClass("panel-primary").addClass("panel-default");$(this).children("a.mail-client-action-link").removeClass("hide").addClass("show");$(this).find(".default-mail-client").removeClass("show").addClass("hide")}})}$(function(){var client=window.NVData["default_webmail_app"]||"";selectDefault(client);$("a.app-fav").click(function(event){var client=$(this).attr("data-default-webmail-app");setLoadingIndicator(client);setDefault(client);event.stopPropagation()});$("a.mail-client-action-link").click(function(){var client=$(this).attr("data-default-webmail-app");SetNvData("default_webmail_app",client,handleSetNvData)})})})();
+                
+                /* Embedding: /usr/local/cpanel/base/webmail/paper_lantern/_assets/disk_usage_meter.min.js */
+                (function(window){"use strict";function Disk_Usage_Meter_Base(el){this._el=el}$.extend(Disk_Usage_Meter_Base.prototype,{_get_refresher:function _get_refresher(){var dum_obj=this;return CPANEL.api({version:3,module:this.MODULE,func:this.FUNC,callback:{success:function(o){delete dum_obj._refreshing;var usage=parseInt(dum_obj._get_usage(o.cpanel_data),10);dum_obj.set(usage)},failure:function(o){delete dum_obj._refreshing;console.error(o)}}})},refresh:function refresh(){if(this._refreshing){return false}this._refreshing=this._get_refresher();return true},set:function set(usage){this._el.textContent=LOCALE.format_bytes(usage);if(this._after_set){this._after_set(usage)}}});function Disk_Usage_Meter_Cpuser(el){Disk_Usage_Meter_Base.call(this,el)}Disk_Usage_Meter_Cpuser.prototype=Object.create(Disk_Usage_Meter_Base.prototype);$.extend(Disk_Usage_Meter_Cpuser.prototype,{MODULE:"Email",FUNC:"get_main_account_disk_usage_bytes",_get_usage:String});function Disk_Usage_Meter_Mailuser(el,usage_data_el,quota){Disk_Usage_Meter_Base.call(this,el);this._usage_data_el=usage_data_el;this._quota=quota}Disk_Usage_Meter_Mailuser.prototype=Object.create(Disk_Usage_Meter_Base.prototype);$.extend(Disk_Usage_Meter_Mailuser.prototype,{MODULE:"Email",FUNC:"list_pops_with_disk",_get_usage:function(cpanel_data){return cpanel_data[0]._diskused},_after_set:function(usage){if(this._quota){var usage_pct=Math.min(99,Math.floor(100*usage/this._quota));if(String(usage_pct).length===1){usage_pct="0"+usage_pct}this._usage_data_el.setAttribute("data-quotausage",usage_pct)}}});window.Disk_Usage_Meter_Cpuser=Disk_Usage_Meter_Cpuser;window.Disk_Usage_Meter_Mailuser=Disk_Usage_Meter_Mailuser})(window);
+                        </script>
+<script>
+$(function(){
+
+    var mail_client;
+
+           mail_client = "roundcube"
+    
+    $("#mailFrame").load(function(){
+        var mailFrameContents;
+        mailFrameContents = $("#mailFrame").contents();
+        if(mail_client === "roundcube"){
+            mailFrameContents.find(".button-logout").hide();
+            mailFrameContents.find(".about-link").hide();
+            mailFrameContents.find(".username").hide();
+            mailFrameContents.find("#topline").hide();
+        }
+
+        if(mail_client === "horde"){
+            mailFrameContents.find("#horde-logout").hide();
+            mailFrameContents.find(".smartmobile-logout").hide();
+        }
+
+        if(mail_client === "sqmail"){
+            hide_squrrel_mail_logout(mailFrameContents);
+        }
+
+    });
+
+    function hide_squrrel_mail_logout(mailFrameContents) {
+        var squrrel_mail_frame = mailFrameContents.find('frame[name="right"]')[0];
+        if(squrrel_mail_frame){
+            $(squrrel_mail_frame.contentDocument.getElementsByClassName("sqm_headerSignout")).hide();
+
+            mailFrameContents.find('frame[name="right"]')[0].onload = function() {
+               $(this.contentDocument.getElementsByClassName("sqm_headerSignout")).hide()
+            };
+        }
+
+    }
+}
+
+);
+</script>
+<script>
+    $(parent.document).find('#lnkHeaderLogout').click(function() {
+        var mail_client;
+
+                   mail_client = "roundcube"
+        
+        mailFrameContents = $("#mailFrame").contents();
+
+        if(mail_client === "roundcube"){
+           mailFrameContents.find("#rcmbtn101")[0].click();
+        }
+
+    });
+</script>        <script type="text/javascript">
+        if (("standalone" in window.navigator) && window.navigator.standalone) {
+            jQuery(document).ready(function($) {
+                $("a").click(function(event) {
+                    var alink = document.createElement('a');
+                    alink.href = $(this).attr("href");
+                    if (alink && alink.protocol.indexOf('http') !== -1 && alink.host.indexOf(document.location.host) !== -1) {
+                        event.preventDefault();
+                        window.location = alink.href;
+                    }
+                });
+            });
+        }
+        </script>
+        <script>
+        $(
+            function() {
+                var img = $("#imgPoweredByCpanel");
+                if(img === null || img.length <= 0 ||
+                    img.attr('src') !== "/cPanel_magic_revision_1503509868/img-sys/powered_by_cpanel.svg") {
+                    window.location="/";
+                }
+
+                // Warning Duplicate IDs
+                var ids = {};
+                $('[id]').each(function(){
+                    if(ids[this.id]) {
+                        console.warn('Duplicate ID #'+this.id);
+                    }
+                    ids[this.id] = 1;
+                });
+            }
+        );
+        </script>
+    
+
+</body></html>
